@@ -25,7 +25,7 @@ In JS, declare the observer & add the font display when it's loaded
 // script.js
 const font = new FontFaceObserver('Roboto Condensed');
 font.load().then(function () {
-  const bodyHTML = document.getElementByTagName('body')[0];
+  const bodyHTML = document.getElementsByTagName('body')[0];
   bodyHTML.classList.add('fonts-loaded');
 });
 ```

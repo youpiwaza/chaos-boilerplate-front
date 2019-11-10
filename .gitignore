@@ -1,6 +1,6 @@
 # Exclude generated files & folders
 dist/
-prod/
+watch/
 
 # Exclude npm/yarn package folders
 node_modules/

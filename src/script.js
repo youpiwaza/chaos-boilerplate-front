@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
   //                                family name declared in css @import
   const font = new FontFaceObserver('Roboto Condensed');
   font.load().then(function () {
-    const bodyHTML = document.getElementByTagName('body')[0];
+    const bodyHTML = document.getElementsByTagName('body')[0];
     bodyHTML.classList.add('fonts-loaded');
   });
 
