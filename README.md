@@ -1,2 +1,57 @@
 # chaos-boilerplate-front
-Front-end boilerplate
+
+Front-end boilerplate, to suit my needs.
+
+
+## Gulp heavy
+
+Numerous optimisations are done automattically thanks to gulp.
+
+Here are the main commands.
+
+
+## Before prod Checklist
+
+Various recommandations, you can also directly run online validators
+
+### Online validators
+
+- [w3c](https://validator.w3.org/)
+- [Pagespeed insight](https://developers.google.com/speed/pagespeed/insights/)
+- [Dareboost](https://www.dareboost.com/fr/) / Limited use per day in free version !
+- [Webpage test](https://www.webpagetest.org/)
+
+
+### Html
+
+- Meta tags
+- Open graph tags
+- Favicon
+
+- Linted
+- Minified
+- Remove css & js tags if inline injection
+
+
+### Css
+
+- Linted
+- Concat external librairies
+- Minified
+- Inline injection
+- .htaccess inline security (SHA-256) (XSS prevention)
+
+
+### JS
+
+- Linted
+- Concat external librairies
+- Minified
+- Inline injection
+- .htaccess inline security (SHA-256) (XSS prevention)
+
+
+### Misc
+
+- .htaccess configuration
+- Images minification (.webp & webm, cf. [assets/images/](assets/images/))

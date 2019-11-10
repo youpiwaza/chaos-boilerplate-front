@@ -1,0 +1,82 @@
+/*! /src/style.css */
+/* Fonts import
+ * https://google-webfonts-helper.herokuapp.com/fonts/roboto-condensed
+ * https://github.com/bramstein/fontfaceobserver
+*/
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/roboto-condensed/roboto-condensed-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+      url('../assets/fonts/roboto-condensed/roboto-condensed-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../assets/fonts/roboto-condensed/roboto-condensed-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../assets/fonts/roboto-condensed/roboto-condensed-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+      url('../assets/fonts/roboto-condensed/roboto-condensed-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../assets/fonts/roboto-condensed/roboto-condensed-v18-latin-regular.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
+}
+
+/* Basic css */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* Rainbow ! */
+  background-color: #3b9c9c;
+  background: linear-gradient(140deg, #ea2115, #d5721c, #d5bc1f, #3d9970, #0074d9, #b10dc9, #f012be, #0074d9, #001f3f);
+  background-size: 1400% 1400%;
+
+  color: #fff5ee;
+}
+
+body {
+  /* https://www.transparenttextures.com/ */
+  background: url('assets/images/bg.png') repeat;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  justify-content: center;
+  line-height: 1.4em;
+  min-height: 100vh;
+}
+
+body.fonts-loaded {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+a,
+a:active,
+a:visited {
+  color: #ff833b;
+}
+
+a:hover {
+  color: #ff9659;
+}
+
+.container {
+  padding: 2.5em .5em;
+  width: 95%;
+}
+
+
+/* ~Responsive */
+@media screen and (min-width: 620px) {
+
+}
+
+@media screen and (min-width: 960px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}

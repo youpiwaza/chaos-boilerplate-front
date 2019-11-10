@@ -1,0 +1,35 @@
+## Header optimisation w. dareboost
+# Browser caching
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webp|webm|ttf|woff|woff2)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+# Security and stuff
+#     Update SHA-256 for inline scripts, Chrome generates them
+# <IfModule mod_headers.c>
+# Header set Content-Security-Policy: "default-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; script-src 'self' 'sha256-CLaxbeg+4j5s0E/YdpzacGDNaD+af+HX6rgTg4yfQ4g='; style-src 'self' 'sha256-QRzWYrgAW2yZUdlY3tWEXZmz+Ey4lATIuL69WKX6pMA=' 'sha256-ESwzs/pwk6xVxIZH3YCxHKVRV9YGR02+QzCza+PCibs='"
+# </IfModule>
+
+# Font types
+<IfModule mod_mime.c>
+    AddType application/vnd.ms-fontobject    .eot
+    AddType application/x-font-opentype      .otf
+    AddType image/svg+xml                    .svg
+    AddType application/x-font-ttf           .ttf
+    AddType application/font-woff            .woff
+    AddType application/font-woff2           .woff2
+</IfModule>
+
+# Headers optimisation
+AddDefaultCharset utf-8
+DefaultLanguage fr-FR
+
+# Prevent XSS / Block all content if suspected
+<IfModule mod_headers.c>
+Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Prevent MIME-Type sniffing
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+</IfModule>
