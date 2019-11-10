@@ -12,12 +12,12 @@ require('./copy');
 
 // Copy css & notify browser sync
 task('copy-css', () => src('src/**/*.css')
-  .pipe(dest('watch/'))
+  .pipe(dest('dist/'))
   .pipe(browserSync.stream()));
 
 // Copy html & notify browser sync
 task('copy-html', () => src('src/**/*.html')
-  .pipe(dest('watch/'))
+  .pipe(dest('dist/'))
   .pipe(browserSync.stream()));
 
 // Copy js & notify browser sync
@@ -26,14 +26,14 @@ task('copy-js', () => src(
     'src/**/*.js',
     '!src/js/vendor/**/*.js',
   ])
-  .pipe(dest('watch/'))
+  .pipe(dest('dist/'))
   .pipe(browserSync.stream()));
 
 
 // Create watcher
 task('start-watch', () => {
   browserSync.init({
-    server: './watch',
+    server: './dist',
   });
 
   // Watch every tech
