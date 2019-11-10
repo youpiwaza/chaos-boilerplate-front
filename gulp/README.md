@@ -27,7 +27,7 @@ Contains del functions, emptying /dist & prod/, preventing old unecessary files
 Contains html, css & js linters. Needs fine tuning & IDE support/homogeneisation
 
 
-# prod.js
+## prod.js
 
 Generates /prod folder : concat, minifies all css/js & inline injection
 
