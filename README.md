@@ -8,7 +8,7 @@ TODO / https://csscomb.herokuapp.com/config
 
 Numerous optimisations are done automattically thanks to gulp.
 
-More details in [./gulp/](gulp/).
+More details in [/gulp](./gulp/).
 
 Here are the main commands.
 
@@ -65,4 +65,4 @@ Various recommandations, you can also directly run online validators
 ### Misc
 
 - .htaccess configuration
-- Images minification (.webp & webm, cf. [./src/assets/images/](./src/assets/images/))
+- Images minification (.webp & webm, cf. [/src/assets/images](./src/assets/images/))
