@@ -65,4 +65,4 @@ Various recommandations, you can also directly run online validators
 ### Misc
 
 - .htaccess configuration
-- Images minification (.webp & webm, cf. [./src/assets/images/](assets/images/))
+- Images minification (.webp & webm, cf. [/src/assets/images/](assets/images/))
