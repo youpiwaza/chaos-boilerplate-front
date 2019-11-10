@@ -17,6 +17,28 @@ Contains some of the configuration for convenience purposes.
 Copy /assets & vendors
 
 
+## file.js
+
+Contains del functions, emptying /dist & prod/, preventing old unecessary files
+
+
+## lint.js
+
+Contains html, css & js linters. Needs fine tuning & IDE support/homogeneisation
+
+
+# prod.js
+
+Generates /prod folder : concat, minifies all css/js & inline injection
+
+
+## utility.js
+
+Log display for linters
+
+
 ## watch.js
 
 Add the `gulp watch` command, enabling HMR and easier dev.
+
+Generates in /dist
