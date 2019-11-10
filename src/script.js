@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // https://github.com/bramstein/fontfaceobserver
   //                                family name declared in css @import
   const font = new FontFaceObserver('Roboto Condensed');
-  font.load().then(function () {
+  font.load().then( () => {
     const bodyHTML = document.getElementsByTagName('body')[0];
     bodyHTML.classList.add('fonts-loaded');
   });

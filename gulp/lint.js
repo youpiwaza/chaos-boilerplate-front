@@ -8,7 +8,7 @@ const stylelint = require('gulp-stylelint');
 
 
 // // Tasks imports
-require('./utility');
+const { htmllintReporter, isCssOk, notifyJsIsOk } = require('./utility');
 
 
 // Lint css & check for errors

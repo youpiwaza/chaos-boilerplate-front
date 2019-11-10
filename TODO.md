@@ -2,7 +2,7 @@
 
 - Add sass support
 
-- Linters
+- REVOIR TOUS LES Linters
   - add linter for markdown .md
   - automatic lint fix for css & js (pas de dépendance à l'éditeur, intégré au watch)
   - Add vertical values support (CSS is currently cancer)
