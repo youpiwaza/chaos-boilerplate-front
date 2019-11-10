@@ -1,5 +1,5 @@
 // // Linters functions
-const { src, task } = require('gulp');
+const { parallel, src, task } = require('gulp');
 
 // Plugins ressources
 const eslint    = require('gulp-eslint');
@@ -8,11 +8,11 @@ const stylelint = require('gulp-stylelint');
 
 
 // // Tasks imports
-const { htmllintReporter, isCssOk, notifyJsIsOk } = require('./utility');
+require('./utility');
 
 
 // Lint css & check for errors
-const lintCss = task('lint-css', () => src(['src/**/*.css', '!node_modules/**'])
+task('lint-css', () => src(['src/**/*.css', '!node_modules/**'])
   .pipe(stylelint(
     {
       reporters:
@@ -29,28 +29,23 @@ const lintCss = task('lint-css', () => src(['src/**/*.css', '!node_modules/**'])
   )));
 
 // Lint html & check for errors
-const lintHtml = task('lint-html', () => src(['src/**/*.html', '!node_modules/**'])
+task('lint-html', () => src(['src/**/*.html', '!node_modules/**'])
   .pipe(htmllint({}, htmllintReporter)));
 
 
 // Lint html & check for errors
-const lintJs = task('lint-js', () => src(['src/**/*.js', '!node_modules/**'])
+task('lint-js', () => src(['src/**/*.js', '!node_modules/**'])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failAfterError())
   .on('end', notifyJsIsOk));
 
 // Lint html & check for errors
-const lintGulp = task('lint-gulp', () => src(['gulpfile.js', 'gulp/**/*.js'])
+task('lint-gulp', () => src(['gulpfile.js', 'gulp/**/*.js'])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failAfterError())
   .on('end', notifyJsIsOk));
 
-
-module.exports = {
-  lintCss,
-  lintHtml,
-  lintJs,
-  lintGulp,
-};
+// Run all linters
+task('lint', parallel('lint-html', 'lint-css', 'lint-js'));

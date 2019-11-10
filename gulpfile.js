@@ -1,4 +1,4 @@
-const { parallel, task } = require('gulp');
+const { parallel, series, task } = require('gulp');
 
 // // Tasks imports
 // defines main tasks 'copy-assets', 'copy-vendors'
@@ -15,7 +15,4 @@ require('./gulp/watch');
 
 // Default tesk, executed when using 'gulp'
 //    Capy all assets to dist
-task('default', parallel('copy-assets', 'copy-vendors'));
-
-// Run all linters
-task('lint', parallel('lint-html', 'lint-css', 'lint-js'));
+task('default', series('del-dist', parallel('copy-assets', 'copy-vendors')));

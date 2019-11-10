@@ -6,6 +6,7 @@ const browserSync = require('browser-sync').create();
 
 //// Tasks imports
 require('./copy');
+require('./file');
 
 
 //// Sub-tasks
@@ -55,4 +56,4 @@ task('start-watch', () => {
 
 // Tasks
 //  Watch : copy all files, and then update when necessary
-task('watch', series(parallel('copy-assets', 'copy-vendors'), 'start-watch'));
+task('watch', series('del-dist', parallel('copy-assets', 'copy-vendors'), 'start-watch'));

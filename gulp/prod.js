@@ -9,6 +9,8 @@ const {
 
 // Require config
 const { cssVendors, jsVendors } = require('./_config');
+require('./file');
+
 
 const cleanCSS  = require('gulp-clean-css');
 const concat    = require('gulp-concat');
@@ -28,6 +30,11 @@ task('prod-copy-assets', () => src(
   ]
 )
   .pipe(dest('prod/assets/')));
+
+
+// Copy htaccess to /prod root
+task('prod-copy-htaccess', () => src('src/.htaccess')
+  .pipe(dest('prod/')));
 
 
 ////  Remove style & script tags from index.html, all will be injected
@@ -108,4 +115,4 @@ task('prod-minify-html', () =>
     }))
     .pipe(dest('prod/')));
 
-task('prod', parallel('prod-copy-assets', series('prod-clean-index', 'prod-minify-inject-css', 'prod-minify-inject-js', 'prod-minify-html')));
+task('prod', series('del-prod', parallel('prod-copy-assets', 'prod-copy-htaccess', series('prod-clean-index', 'prod-minify-inject-css', 'prod-minify-inject-js', 'prod-minify-html'))));
