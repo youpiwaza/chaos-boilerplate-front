@@ -66,3 +66,4 @@ Various recommandations, you can also directly run online validators
 
 - .htaccess configuration
 - Images minification (.webp & webm, cf. [/src/assets/images](./src/assets/images/))
+- Security loopholes prevention / https://www.hacksplaining.com/lessons
