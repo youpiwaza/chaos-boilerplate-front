@@ -64,17 +64,24 @@ a:hover {
 
 .container {
   padding: 2.5em .5em;
-  width: 95%;
+  width: 100%;
 }
-
 
 /* ~Responsive */
 @media screen and (min-width: 620px) {
-
+  .container {
+    padding: 3em 1em;
+  }
 }
 
 @media screen and (min-width: 960px) {
-
+  h1, h2, h3 {
+    margin-top: 1.4em;
+  }
+  .container {
+    max-width: 1200px;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
