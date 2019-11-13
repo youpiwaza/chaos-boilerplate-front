@@ -18,6 +18,10 @@ Copy /src & selected vendors to /watch
 
 Html, css, js HMR
 
+> gulp prod
+
+Concat, minify & inline inject of css & js
+
 
 ## Before prod Checklist
 
