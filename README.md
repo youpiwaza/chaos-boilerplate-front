@@ -2,8 +2,6 @@
 
 Front-end boilerplate, to suit my needs.
 
-TODO / https://csscomb.herokuapp.com/config
-
 ## Gulp heavy
 
 Numerous optimisations are done automattically thanks to gulp.
