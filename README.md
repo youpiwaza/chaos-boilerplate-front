@@ -33,6 +33,7 @@ Various recommandations, you can also directly run online validators
 - [Pagespeed insight](https://developers.google.com/speed/pagespeed/insights/)
 - [Dareboost](https://www.dareboost.com/fr/) / Limited use per day in free version !
 - [Webpage test](https://www.webpagetest.org/)
+- [CSP check](https://securityheaders.com/)
 
 
 ### Html
