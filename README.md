@@ -75,4 +75,21 @@ Various recommandations, you can also directly run online validators
 
 ## TODO
 
-Add accessibility checks & resources from [this article](https://dev.to/karkranikhil/web-accessibility-by-making-your-site-accessible-you-automatically-increase-the-target-audience-d8d)
+- Add accessibility checks & resources from [this article](https://dev.to/karkranikhil/web-accessibility-by-making-your-site-accessible-you-automatically-increase-the-target-audience-d8d)
+- [+1](https://varvy.com/googlebot.html)
+- Get back tool box & reimplant with css/js injection
+  - and add new html stuff :
+  
+  https://developer.mozilla.org/fr/docs/Web/HTML/Element
+  
+  https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/itemid
+  
+  https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/itemprop
+  
+  https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/itemref
+  
+  https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/itemscope
+  
+  https://developer.mozilla.org/fr/docs/Web/HTML/Element/details
+  
+    - and add [complex elements can do w html/css only](https://dev.to/adrianbdesigns/you-can-create-these-elements-without-javascript-525a) and it also contains ellipsis and stuff
