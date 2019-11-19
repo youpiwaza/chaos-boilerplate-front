@@ -71,3 +71,8 @@ Various recommandations, you can also directly run online validators
 - .htaccess configuration
 - Images minification (.webp & webm, cf. [/src/assets/images](./src/assets/images/))
 - Security loopholes prevention / https://www.hacksplaining.com/lessons
+
+
+## TODO
+
+Add accessibility checks & resources from [this article](https://dev.to/karkranikhil/web-accessibility-by-making-your-site-accessible-you-automatically-increase-the-target-audience-d8d)
