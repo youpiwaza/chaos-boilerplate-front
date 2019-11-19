@@ -93,3 +93,5 @@ Various recommandations, you can also directly run online validators
   https://developer.mozilla.org/fr/docs/Web/HTML/Element/details
   
     - and add [complex elements can do w html/css only](https://dev.to/adrianbdesigns/you-can-create-these-elements-without-javascript-525a) and it also contains ellipsis and stuff
+
+- [seo stuff](https://totheweb.com/learning_center/tools-search-engine-simulator/)
