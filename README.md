@@ -95,3 +95,5 @@ Various recommandations, you can also directly run online validators
     - and add [complex elements can do w html/css only](https://dev.to/adrianbdesigns/you-can-create-these-elements-without-javascript-525a) and it also contains ellipsis and stuff
 
 - [seo stuff](https://totheweb.com/learning_center/tools-search-engine-simulator/)
+
+- Add basic [PWA](https://www.webdesignerdepot.com/2019/03/should-you-be-building-progressive-web-apps/) and add it to end checklist
