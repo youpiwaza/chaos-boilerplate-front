@@ -34,6 +34,8 @@ Various recommandations, you can also directly run online validators
 - [Dareboost](https://www.dareboost.com/fr/) / Limited use per day in free version !
 - [Webpage test](https://www.webpagetest.org/)
 - [CSP check](https://securityheaders.com/)
+- [Test responsive](https://www.lambdatest.com/
+- [Test mobile load time](thinkwithgoogle.com/feature/testmysite/)
 
 
 ### Html
@@ -71,6 +73,7 @@ Various recommandations, you can also directly run online validators
 - .htaccess configuration
 - Images minification (.webp & webm, cf. [/src/assets/images](./src/assets/images/))
 - Security loopholes prevention / https://www.hacksplaining.com/lessons
+- Add google analytics / https://analytics.google.com/analytics/web/
 
 
 ## TODO
