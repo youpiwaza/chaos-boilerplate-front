@@ -35,7 +35,7 @@ Various recommandations, you can also directly run online validators
 - [Webpage test](https://www.webpagetest.org/)
 - [Ace Accessibe > accessibilité](https://ace.accessibe.com/)
 - [CSP check](https://securityheaders.com/)
-- [Test responsive](https://www.lambdatest.com/
+- [Test responsive](https://www.lambdatest.com/)
 - [Test mobile load time](thinkwithgoogle.com/feature/testmysite/)
 
 ### Html
