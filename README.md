@@ -43,6 +43,7 @@ Various recommandations, you can also directly run online validators
 - Meta tags
 - Open graph tags
 - Favicon
+- [itemprop attribute](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/itemprop)
 
 - Linted
 - Minified
