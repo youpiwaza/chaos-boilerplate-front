@@ -57,6 +57,7 @@ Various recommandations, you can also directly run online validators
 - Minified
 - Inline injection
 - .htaccess inline security (SHA-256) (XSS prevention)
+- [Remove unused CSS](https://dev.to/dailydevtips1/chrome-find-unused-code-3g9c)
 
 
 ### JS
@@ -66,6 +67,7 @@ Various recommandations, you can also directly run online validators
 - Minified
 - Inline injection
 - .htaccess inline security (SHA-256) (XSS prevention)
+- [Remove unused JS](https://dev.to/dailydevtips1/chrome-find-unused-code-3g9c)
 
 
 ### Misc
