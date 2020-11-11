@@ -103,3 +103,5 @@ Various recommandations, you can also directly run online validators
 - [seo stuff](https://totheweb.com/learning_center/tools-search-engine-simulator/)
 
 - Add basic [PWA](https://www.webdesignerdepot.com/2019/03/should-you-be-building-progressive-web-apps/) and add it to end checklist
+
+- html dl dt [https://developer.mozilla.org/fr/docs/Web/HTML/Element/dl](https://developer.mozilla.org/fr/docs/Web/HTML/Element/dl)
