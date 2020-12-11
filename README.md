@@ -79,7 +79,7 @@ Various recommandations, you can also directly run online validators
   - Or best, [AVIF](https://jakearchibald.com/2020/avif-has-landed/) when it'll be [more compatible](https://caniuse.com/?search=avif)
 - Security loopholes prevention / https://www.hacksplaining.com/lessons
 - Add google analytics / https://analytics.google.com/analytics/web/
-
+- [Minify SVG](https://github.com/svg/svgo)
 
 ## TODO
 
