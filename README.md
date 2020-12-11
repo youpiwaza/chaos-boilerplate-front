@@ -76,6 +76,7 @@ Various recommandations, you can also directly run online validators
 - **Clean unused files**
 - .htaccess configuration
 - Images minification (.webp & webm, cf. [/src/assets/images](./src/assets/images/))
+  - Or best, [AVIF](https://jakearchibald.com/2020/avif-has-landed/) when it'll be [more compatible](https://caniuse.com/?search=avif)
 - Security loopholes prevention / https://www.hacksplaining.com/lessons
 - Add google analytics / https://analytics.google.com/analytics/web/
 
