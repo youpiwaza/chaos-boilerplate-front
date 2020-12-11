@@ -37,6 +37,7 @@ Various recommandations, you can also directly run online validators
 - [CSP check](https://securityheaders.com/)
 - [Test responsive](https://www.lambdatest.com/)
 - [Test mobile load time](thinkwithgoogle.com/feature/testmysite/)
+- [How's your website impacting the planet + web recos](https://www.websitecarbon.com/)
 
 ### Html
 
