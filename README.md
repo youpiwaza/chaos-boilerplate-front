@@ -38,6 +38,7 @@ Various recommandations, you can also directly run online validators
 - [Test responsive](https://www.lambdatest.com/)
 - [Test mobile load time](thinkwithgoogle.com/feature/testmysite/)
 - [How's your website impacting the planet + web recos](https://www.websitecarbon.com/)
+- [Find & remove unused code](https://dev.to/dailydevtips1/chrome-find-unused-code-3g9c)
 
 ### Html
 
