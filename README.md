@@ -82,6 +82,7 @@ Various recommandations, you can also directly run online validators
 - Security loopholes prevention / https://www.hacksplaining.com/lessons
 - Add google analytics / https://analytics.google.com/analytics/web/
 - [Minify SVG](https://github.com/svg/svgo)
+- [Legal stuff > gouv.fr](https://entreprendre.service-public.fr/vosdroits/F31228/personnalisation/resultat?lang=&quest0=0)
 
 ## TODO
 
