@@ -83,6 +83,7 @@ Various recommandations, you can also directly run online validators
 - Add google analytics / https://analytics.google.com/analytics/web/
 - [Minify SVG](https://github.com/svg/svgo)
 - [Legal stuff > gouv.fr](https://entreprendre.service-public.fr/vosdroits/F31228/personnalisation/resultat?lang=&quest0=0)
+- [RGPD stuff > gouv.fr](https://www.francenum.gouv.fr/guides-et-conseils/developpement-commercial/gestion-des-donnees-clients/comment-rendre-le-fichier)
 
 ## TODO
 
