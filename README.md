@@ -87,6 +87,8 @@ Various recommandations, you can also directly run online validators
 
 ## TODO
 
+- [Pretty cool article on website optimisations](https://dev.to/enterspeed/making-a-fast-website-is-super-easy-9lb)
+
 - Add accessibility checks & resources from [this article](https://dev.to/karkranikhil/web-accessibility-by-making-your-site-accessible-you-automatically-increase-the-target-audience-d8d)
 - [+1](https://varvy.com/googlebot.html)
 - Get back tool box & reimplant with css/js injection
